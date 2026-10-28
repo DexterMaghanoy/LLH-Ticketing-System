@@ -38,9 +38,9 @@ Change the initial password on first login.
 | Phase 0 | Complete | Environment inspection & planning |
 | Phase 1 | Complete | Foundation & authentication |
 | Phase 2 | Complete | Users & departments (15 departments seeded, role/permission system, CRUD controllers & views) |
-| Phase 3 | In Progress | Core ticketing (database, models, seeders implemented; ticket creation forms, assignment logic, status transitions, dashboards pending) |
+| Phase 3 | Complete | Core ticketing (database, models, seeders; ticket creation forms, assignment logic, status transitions, dashboards) |
 - Authorization: Native Laravel Gates + Policies in AuthServiceProvider
-| Phase 4 | Pending | Communication & notifications |
+| Phase 4 | Complete | Core Ticketing Features (ticket controller, routes, views, status workflow, assignment, dashboards) |
 | Phase 6 | Pending | Reports & administration |
 | Phase 8 | Pending | Internal deployment & handover |
 | Phase 5 | Pending | SLA & analytics |
