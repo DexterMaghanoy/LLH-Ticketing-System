@@ -16,6 +16,8 @@ class DatabaseSeeder extends Seeder
         // Seed departments first (needed for user assignments)
         $this->call(DepartmentSeeder::class);
 
+        $this->call(TicketPrioritySeeder::class);
+
         // Create initial super admin user if not already exists
         if (!User::where('email', 'admin@llh.local')->exists()) {
             User::factory()->create([
